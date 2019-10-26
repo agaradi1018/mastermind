@@ -21,19 +21,8 @@ namespace MasterMind
 
             for (int i = 1; i <=10; i++)
             {
-                //freq.Clear();
-                //numPrint = 0;
                 answer = new char[4];
-
-                //Console.WriteLine("Number : " + numPrint);                
-
-                //foreach (KeyValuePair<int, int> f in freq)
-                //{
-                //    Console.WriteLine(f.Key + " -> " + f.Value);
-                //}
-
-
-
+				
                 Console.WriteLine("\nAttempt # " + i + ", Enter you guess - ");
                 guess = Console.ReadLine();
 
@@ -94,11 +83,6 @@ namespace MasterMind
                         {
                             answer[i] = '+';
                             matchCounter++;
-                            //freqCounter = freq[digit] - 1;
-                            //if (freqCounter == 0)
-                            //    freq.Remove(digit);
-                            //else
-                            //    freq[digit] = freqCounter;
                         }
                     }
                 }
@@ -118,16 +102,6 @@ namespace MasterMind
                         if (freq.ContainsKey(digit))
                         {
                             answer[i] = '-';
-                            //if (digit == secret[i])
-                            //    answer[i] = '+';
-                            //else
-                            //    answer[i] = '-';
-
-                            //freqCounter = freq[digit] - 1;
-                            //if (freqCounter == 0)
-                            //    freq.Remove(digit);
-                            //else
-                            //    freq[digit] = freqCounter;
                         }
                         else
                         {
@@ -153,8 +127,6 @@ namespace MasterMind
             {
                 for(int i=0;i<4;i++)
                 {
-                    //num = setSecret % 10;
-                    //setSecret = setSecret / 10;
                     num = r.Next(1, 7);
                     secret[i] = num;
                     numPrint = numPrint * 10 + num;
