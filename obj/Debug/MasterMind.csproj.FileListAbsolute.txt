@@ -1,7 +1,0 @@
-R:\IT\Software Development Projects\SVN\MasterMind\MasterMind\bin\Debug\MasterMind.exe.config
-R:\IT\Software Development Projects\SVN\MasterMind\MasterMind\bin\Debug\MasterMind.exe
-R:\IT\Software Development Projects\SVN\MasterMind\MasterMind\bin\Debug\MasterMind.pdb
-R:\IT\Software Development Projects\SVN\MasterMind\MasterMind\obj\Debug\MasterMind.csprojAssemblyReference.cache
-R:\IT\Software Development Projects\SVN\MasterMind\MasterMind\obj\Debug\MasterMind.csproj.CoreCompileInputs.cache
-R:\IT\Software Development Projects\SVN\MasterMind\MasterMind\obj\Debug\MasterMind.exe
-R:\IT\Software Development Projects\SVN\MasterMind\MasterMind\obj\Debug\MasterMind.pdb
