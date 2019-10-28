@@ -14,7 +14,7 @@ Visual Studio 2015 and above
 
 ### Installing
 
-* Run the .sln file to open the project in Visual Studio
+* Run the .sln file to open the project in Visual Studio.
 * Build it and run. This would run the application on the console.
 
 ## Executing the project
@@ -23,6 +23,10 @@ Visual Studio 2015 and above
 /MasterMind/MasterMind/bin/Debug/MasterMind.exe
 ```
 * This should start the application and open a console. The user will be able to give their input from the console and view the result output.
+
+## Testing
+
+* The application is tested using unit test cases in file MasterMindProjTests.cs
 
 ## Deployment
 
